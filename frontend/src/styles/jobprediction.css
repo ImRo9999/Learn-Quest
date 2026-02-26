@@ -1,0 +1,110 @@
+.job-prediction-page {
+    max-width: 1200px; /* Make the whole page wider */
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .input-textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .predict-btn {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
+  .predict-btn:hover {
+    background: linear-gradient(to right, #5b0eb5, #1e63d6);
+  }
+  
+  .prediction-result {
+    margin-top: 40px;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Wider Cards */
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .job-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    padding: 25px;
+    transition: transform 0.2s;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .job-card h4 {
+    margin-top: 0;
+    color: #6a11cb;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  .job-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .growth-tag {
+    margin-top: 15px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  /* Colorful tags */
+  .growth-tag.growth {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .growth-tag.stable {
+    background-color: #d1ecf1;
+    color: #0c5460;
+  }
+  
+  .growth-tag.decline {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
